@@ -34,8 +34,4 @@ export class ComponentsStVirtualComponent {
     { title: '价格9', index: 'price', width: 100, fixed: 'right' },
     { title: '价格10', index: 'price', width: 100, fixed: 'right' },
   ];
-
-  scrollToIndex(index: number): void {
-    this.st.cdkVirtualScrollViewport.scrollToIndex(index);
-  }
 }
